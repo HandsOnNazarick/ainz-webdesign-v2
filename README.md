@@ -1,41 +1,43 @@
-# Ainz Web Design — vitrine (v2)
+# Ainz Web Design — vitrine v2
 
 Site vitrine pour la prospection freelance, Suisse romande.
 
+Identite visuelle identique au site d'origine : noir profond, or, Inter, emojis.
+Les corrections portent sur la technique, pas sur l'apparence.
+
 ## Deploiement
 
-Pousser sur la branche `main` de ce repo. GitHub Pages sert `index.html` automatiquement.
+Pousser sur `main`. GitHub Pages sert `index.html` automatiquement.
 
 ## Stack
 - HTML / CSS / JS purs, aucune dependance, aucune build
-- Polices : Vollkorn 600 (titres, chiffres anciens), Hanken Grotesk (texte), Newsreader (legendes)
-- Theme : Garden — papier avoine chaud, encre vert foret, un vert feuille en accent
+- Police : Inter (Google Fonts)
+- Couleurs : `--bg #0a0a0a`, `--gold #d4af37`
 
 ## Structure
 ```
-index.html      # hero, index de projets, formules, processus, contact
-style.css       # mise en page et composants
-tokens.css      # jetons de couleur, typo, espacement (genere)
-base.css        # base commune (genere)
-script.js       # menu mobile
+index.html      # hero, services, demo, processus, about, contact, footer
+style.css       # theme sombre + or, responsive
+script.js       # nav au scroll, menu mobile, reveal au scroll
 ```
 
+## Corrections par rapport a l'original
+- Contraste du texte ameliore : `--text-dim` passe de `#a0a0a0` a `#b4b4b4`
+- Plus de `transition: all`, chaque transition nomme ses proprietes
+- `:focus-visible` au clavier, partout
+- `prefers-reduced-motion` respecte, le contenu reste visible sans JS
+- Menu mobile avec fermeture sur Echap et au redimensionnement
+- Grille qui tient a 360 px, boutons pleine largeur sur petit ecran
+- Schema.org conserve, 3 offres, 6 cantons
+
 ## Sections
-1. **Hero** — titre, promesse courte, deux actions, le prix en chiffres anciens
-2. **Ce que je fais** — trois travails, chacun avec sa photo
-3. **Formules** — liste de prix sur bande mousse, trois paliers
-4. **Comment ça se passe** — bande vert foret, quatre etapes
-5. **Contact** — tel, WhatsApp, email, zones, horaires
-6. **Footer** — colophon + credits photo
-
-## Regles de design
-
-Le theme interdit les emojis comme icones, les degrades purple vers bleu, la carte
-dans la carte, `transition: all`, et les labels en capitales espacees. Les titres sont
-en Vollkorn 600, le texte en Hanken Grotesk. Pas d'ombre portee : la profondeur vient
-des aplats et des filets. Un seul vert feuille sur l'ecran, sur l'action principale.
-
-Les trois photos viennent de Wikimedia Commons, credits en pied de page.
+1. **Hero** — badge, titre, deux CTA, trois stats
+2. **Pour qui** — Option A (statique) / Option B (avec CMS)
+3. **Demo** — Maison Verte, avec le detail de la stack
+4. **Processus** — quatre etapes numerotees
+5. **Pourquoi** — la position, sans bullshit
+6. **Contact** — tel, WhatsApp, email
+7. **Footer** — liens vers le materiel commercial et la demo
 
 ## Contact
 - Telephone : 076 579 85 30
