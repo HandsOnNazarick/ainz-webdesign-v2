@@ -14,3 +14,10 @@ Thumbs.db
 .env
 .env.local
 *.local
+# hallmark build log
+.hallmark/
+
+# internal notes, not part of the site
+ANNUAIRES_SUISSES.md
+GBP_DRAFT.md
+LINKEDIN_DRAFT.md
