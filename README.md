@@ -8,8 +8,8 @@ Pousser sur la branche `main` de ce repo. GitHub Pages sert `index.html` automat
 
 ## Stack
 - HTML / CSS / JS purs, aucune dependance, aucune build
-- Polices : Oswald (titres), Archivo (texte), Archivo Narrow (chiffres)
-- Theme : Formwork — beton chaud, encre proche du noir, un orange signal
+- Polices : Vollkorn 600 (titres, chiffres anciens), Hanken Grotesk (texte), Newsreader (legendes)
+- Theme : Garden — papier avoine chaud, encre vert foret, un vert feuille en accent
 
 ## Structure
 ```
@@ -21,19 +21,21 @@ script.js       # menu mobile
 ```
 
 ## Sections
-1. **Hero** — titre, promesse courte, deux actions, plaque 600 CHF
-2. **Le travail** — index de projets (secteur + date en colonne de gauche)
-3. **Deux formules** — Statique 600 CHF / Avec edition 1 200 CHF
-4. **Quatre etapes** — bande encre, appel / maquette / realisation / livraison
-5. **Contact** — tel, WhatsApp, email, zones couvertes, horaires
-6. **Footer** — mast
+1. **Hero** — titre, promesse courte, deux actions, le prix en chiffres anciens
+2. **Ce que je fais** — trois travails, chacun avec sa photo
+3. **Formules** — liste de prix sur bande mousse, trois paliers
+4. **Comment ça se passe** — bande vert foret, quatre etapes
+5. **Contact** — tel, WhatsApp, email, zones, horaires
+6. **Footer** — colophon + credits photo
 
 ## Regles de design
 
 Le theme interdit les emojis comme icones, les degrades purple vers bleu, la carte
 dans la carte, `transition: all`, et les labels en capitales espacees. Les titres sont
-en Oswald 700 capitales, le texte en Archivo. Un seul orange sur l'ecran, sur l'action
-principale.
+en Vollkorn 600, le texte en Hanken Grotesk. Pas d'ombre portee : la profondeur vient
+des aplats et des filets. Un seul vert feuille sur l'ecran, sur l'action principale.
+
+Les trois photos viennent de Wikimedia Commons, credits en pied de page.
 
 ## Contact
 - Telephone : 076 579 85 30
