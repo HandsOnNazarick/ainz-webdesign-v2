@@ -1,31 +1,44 @@
-# Ainz Web Design
+# Ainz Web Design — vitrine (v2)
 
-Site vitrine commercial pour la prospection freelance (sites web pour commerces locaux, Suisse romande).
+Site vitrine pour la prospection freelance, Suisse romande.
 
-> Vitrine d'entrée vers l'offre commerciale. Tout le matériel à partager avec un prospect (one-pager PDF, brief, CGV, FAQ, email templates) est dans [`HandsOnNazarick/site-services/commercial/`](https://github.com/HandsOnNazarick/site-services/tree/main/commercial).
-> La démo live est [`demo-restaurant-public`](https://github.com/HandsOnNazarick/demo-restaurant-public) → https://handsonnazarick.github.io/demo-restaurant-public/
+## Deploiement
+
+Pousser sur la branche `main` de ce repo. GitHub Pages sert `index.html` automatiquement.
 
 ## Stack
-- HTML / CSS / JS purs (aucune dépendance, aucune build)
-- Police : Inter (Google Fonts)
-- Hébergement : GitHub Pages
+- HTML / CSS / JS purs, aucune dependance, aucune build
+- Polices : Oswald (titres), Archivo (texte), Archivo Narrow (chiffres)
+- Theme : Formwork — beton chaud, encre proche du noir, un orange signal
 
 ## Structure
 ```
-ainz-web-design/
-├── index.html      # Page unique (hero, services, démo, processus, à propos, contact, footer)
-├── style.css       # Thème sombre premium (noir + or)
-├── script.js       # Nav scroll, menu mobile, fade-in on scroll, smooth scroll
-└── README.md
+index.html      # hero, index de projets, formules, processus, contact
+style.css       # mise en page et composants
+tokens.css      # jetons de couleur, typo, espacement (genere)
+base.css        # base commune (genere)
+script.js       # menu mobile
 ```
 
-## Sections du site
-1. **Hero** — titre + CTA téléphone (076 579 85 30) + bouton devis, mention "à partir de 600 CHF"
-2. **Services** — 2 cartes : Option A (statique pur, je gère tout) / Option B (avec CMS, le client gère)
-3. **Démo** — encart "Voir la démo live" → La Pause sur `https://handsonnazarick.github.io/demo-restaurant-public/`
-4. **Processus** — 4 étapes (appel → maquette → réalisation → livraison)
-5. **À propos** — voix "sans bullshit, sans SaaS", contact réel
-6. **Contact** — téléphone + WhatsApp + email + liens footer vers le matériel commercial
+## Sections
+1. **Hero** — titre, promesse courte, deux actions, plaque 600 CHF
+2. **Le travail** — index de projets (secteur + date en colonne de gauche)
+3. **Deux formules** — Statique 600 CHF / Avec edition 1 200 CHF
+4. **Quatre etapes** — bande encre, appel / maquette / realisation / livraison
+5. **Contact** — tel, WhatsApp, email, zones couvertes, horaires
+6. **Footer** — mast
+
+## Regles de design
+
+Le theme interdit les emojis comme icones, les degrades purple vers bleu, la carte
+dans la carte, `transition: all`, et les labels en capitales espacees. Les titres sont
+en Oswald 700 capitales, le texte en Archivo. Un seul orange sur l'ecran, sur l'action
+principale.
+
+## Contact
+- Telephone : 076 579 85 30
+- Email : nazarick963@gmail.com
+- WhatsApp : https://wa.me/41765798530
 
 ## Positionnement tarifaire
 À partir de **600 CHF** (point d'entrée), 3 niveaux selon la complexité (updated 2026-10-06, formerly 300 / 500-700 / 800-1200) :
